@@ -9,6 +9,7 @@ import SwiftUI
 
 struct RideRequestView: View {
     @State private var selectedRideType: RideType = .uberX
+    @EnvironmentObject var locationViewModel: LocationSearchViewModel
     
     var body: some View {
         VStack {
@@ -83,7 +84,7 @@ struct RideRequestView: View {
                         VStack (alignment: .leading, spacing: 4) {
                             Text(type.description).font(.system(size: 14, weight: .semibold))
                             
-                            Text("$ 22.04").font(.system(size: 14, weight: .semibold))
+                            Text(locationViewModel.computeRidePrice(for: type).toCurrency()).font(.system(size: 14, weight: .semibold))
                         }.padding()
                     }
                     .frame(width: 112, height: 140)
