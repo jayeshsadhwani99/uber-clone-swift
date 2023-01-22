@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		BB70F177297D0CEA00EC4F1F /* uber_cloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70F176297D0CEA00EC4F1F /* uber_cloneApp.swift */; };
-		BB70F179297D0CEA00EC4F1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70F178297D0CEA00EC4F1F /* ContentView.swift */; };
 		BB70F17B297D0CEB00EC4F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB70F17A297D0CEB00EC4F1F /* Assets.xcassets */; };
 		BB70F17E297D0CEB00EC4F1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB70F17D297D0CEB00EC4F1F /* Preview Assets.xcassets */; };
+		BB70F18E297D0E0400EC4F1F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70F18D297D0E0400EC4F1F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB70F173297D0CEA00EC4F1F /* uber-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uber-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB70F176297D0CEA00EC4F1F /* uber_cloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uber_cloneApp.swift; sourceTree = "<group>"; };
-		BB70F178297D0CEA00EC4F1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB70F17A297D0CEB00EC4F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB70F17D297D0CEB00EC4F1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB70F18D297D0E0400EC4F1F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,11 @@
 		BB70F175297D0CEA00EC4F1F /* uber-clone */ = {
 			isa = PBXGroup;
 			children = (
-				BB70F176297D0CEA00EC4F1F /* uber_cloneApp.swift */,
-				BB70F178297D0CEA00EC4F1F /* ContentView.swift */,
+				BB70F185297D0D0B00EC4F1F /* App */,
+				BB70F187297D0D1E00EC4F1F /* Core */,
+				BB70F18A297D0D7200EC4F1F /* Models */,
+				BB70F188297D0D2300EC4F1F /* Extensions */,
+				BB70F189297D0D6C00EC4F1F /* Managers */,
 				BB70F17A297D0CEB00EC4F1F /* Assets.xcassets */,
 				BB70F17C297D0CEB00EC4F1F /* Preview Content */,
 			);
@@ -65,6 +68,60 @@
 				BB70F17D297D0CEB00EC4F1F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB70F185297D0D0B00EC4F1F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BB70F176297D0CEA00EC4F1F /* uber_cloneApp.swift */,
+			);
+			name = App;
+			path = "New Group/App";
+			sourceTree = "<group>";
+		};
+		BB70F187297D0D1E00EC4F1F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BB70F18C297D0DEB00EC4F1F /* Views */,
+				BB70F18B297D0DE500EC4F1F /* ViewModel */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BB70F188297D0D2300EC4F1F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BB70F189297D0D6C00EC4F1F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		BB70F18A297D0D7200EC4F1F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB70F18B297D0DE500EC4F1F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BB70F18C297D0DEB00EC4F1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB70F18D297D0E0400EC4F1F /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +194,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB70F179297D0CEA00EC4F1F /* ContentView.swift in Sources */,
 				BB70F177297D0CEA00EC4F1F /* uber_cloneApp.swift in Sources */,
+				BB70F18E297D0E0400EC4F1F /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
