@@ -22,6 +22,7 @@
 		BB70F1A5297D9BDC00EC4F1F /* RideRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70F1A4297D9BDC00EC4F1F /* RideRequestView.swift */; };
 		BB70F1A7297DB02B00EC4F1F /* RideType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70F1A6297DB02B00EC4F1F /* RideType.swift */; };
 		BB70F1A9297DB7F400EC4F1F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70F1A8297DB7F400EC4F1F /* Double.swift */; };
+		BB70F1AB297DB9FE00EC4F1F /* UberLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70F1AA297DB9FE00EC4F1F /* UberLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		BB70F1A4297D9BDC00EC4F1F /* RideRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideRequestView.swift; sourceTree = "<group>"; };
 		BB70F1A6297DB02B00EC4F1F /* RideType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideType.swift; sourceTree = "<group>"; };
 		BB70F1A8297DB7F400EC4F1F /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		BB70F1AA297DB9FE00EC4F1F /* UberLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				BB70F1A1297D8C8D00EC4F1F /* MapViewState.swift */,
 				BB70F1A6297DB02B00EC4F1F /* RideType.swift */,
+				BB70F1AA297DB9FE00EC4F1F /* UberLocation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				BB70F177297D0CEA00EC4F1F /* uber_cloneApp.swift in Sources */,
 				BB70F190297D2BAB00EC4F1F /* UberMapViewRepresentable.swift in Sources */,
 				BB70F18E297D0E0400EC4F1F /* HomeView.swift in Sources */,
+				BB70F1AB297DB9FE00EC4F1F /* UberLocation.swift in Sources */,
 				BB70F198297D351D00EC4F1F /* LocationSearchActivationView.swift in Sources */,
 				BB70F19E297D3AC400EC4F1F /* LocationSearchResultCell.swift in Sources */,
 				BB70F1A7297DB02B00EC4F1F /* RideType.swift in Sources */,
